@@ -1,0 +1,27 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "A web page to keep track of your fitness.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubbokate/fitness-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubbokate/fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/rubbokate/fitness-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0"
+  }
+}
